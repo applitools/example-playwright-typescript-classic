@@ -1,0 +1,15 @@
+{
+  "name": "example-playwright-typescript-classic",
+  "version": "2.0.0",
+  "description": "An example tutorial for Playwright TypeScript using the Applitools Eyes classic runner",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --project chromium"
+  },
+  "author": "Applitools Team <team@applitools.com> (http://www.applitools.com/)",
+  "license": "Apache License 2.0",
+  "devDependencies": {
+    "@applitools/eyes-playwright": "^1.12.1",
+    "@playwright/test": "^1.22.2"
+  }
+}
